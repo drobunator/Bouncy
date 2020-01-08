@@ -1,0 +1,11 @@
+
+@import "header.scss";
+@import "reset__style.scss";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import 'main.scss';
+
+.size-block{
+    margin: 0 auto;
+    max-width: 1366px;
+    box-sizing: border-box;
+    }

@@ -1,0 +1,44 @@
+.about-us{
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 100px;
+  &__content{
+    max-width: 482px;
+    margin-top: 114px;
+    margin-right: 84px;
+    .content-title{
+      font-family: 'myriad-pro', sans-serif;
+      font-size: 20px;
+      line-height: 12px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    .content-paragraph{
+      font-size: 14px;
+      line-height: 25px;
+      margin-top: 45px;
+      font-weight: 500;
+      color: #9fa2a8;
+      margin-bottom: 36px;
+    }
+  }
+  .about-us__link{
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 8px 25px;
+    margin-bottom: 100px;
+  }
+  &__image{   
+    margin-top: 20px;
+    margin-right: 175px;
+    max-width: 400px;
+    .image-aboutus{
+      width: 100%;
+    }
+  }
+}
+

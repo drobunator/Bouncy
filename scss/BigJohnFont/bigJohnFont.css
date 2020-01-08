@@ -1,0 +1,6 @@
+@font-face {
+font-family: 'Big John Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Big John Regular'), url('Big John.woff') format('woff');
+}

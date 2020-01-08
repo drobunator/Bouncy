@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.header {
+  background: url("../img/header-img/header__bg.jpg") no-repeat;
+  background-size: cover;
+  max-width: 1366px;
+  padding: 47px 0 77px;
+  font-family: 'myriad-pro', sans-serif; }
+  .header .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 1150px;
+    margin-left: 98px; }
+    .header .navigation .logo__title {
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 900; }
+
+@font-face {
+  .header .navigation .logo__title {
+    font-family: 'Big John Regular';
+    src: url(BigJohnFont/BigJohn.woff);
+    font-size: 25px; } }
+    .header .navigation__link .link {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 12px;
+      border: 1px solid  transparent;
+      border-radius: 18px;
+      padding: 10px 15px; }
+      .header .navigation__link .link:hover {
+        border: 1px #fff solid;
+        transition: all ease-in .4s; }
+  .header .content {
+    max-width: 620px;
+    text-align: center;
+    color: #fff;
+    margin: 220px auto 0; }
+    .header .content__title {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 35px;
+      font-weight: 400;
+      letter-spacing: 5px;
+      line-height: 70px;
+      text-transform: uppercase; }
+    .header .content__paragraph {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 1px; }
+  .header .slider-button {
+    margin: 224px auto 0;
+    border-radius: 50%;
+    background: #19bd9a;
+    width: 36px;
+    height: 36px;
+    position: relative; }
+    .header .slider-button:after {
+      content: '';
+      display: block;
+      width: 2px;
+      height: 8px;
+      background-color: #fff;
+      transform: rotate(-45deg);
+      position: absolute;
+      top: calc(48% - 2px);
+      left: calc(48% - 2.5px); }
+    .header .slider-button:before {
+      content: '';
+      display: block;
+      width: 2px;
+      height: 8px;
+      background-color: #fff;
+      transform: rotate(45deg);
+      position: absolute;
+      top: calc(48% - 2px);
+      right: calc(48% - 2.5px); }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.about-us {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 100px; }
+  .about-us__content {
+    max-width: 482px;
+    margin-top: 114px;
+    margin-right: 84px; }
+    .about-us__content .content-title {
+      font-family: 'myriad-pro', sans-serif;
+      font-size: 20px;
+      line-height: 12px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      font-weight: 500; }
+    .about-us__content .content-paragraph {
+      font-size: 14px;
+      line-height: 25px;
+      margin-top: 45px;
+      font-weight: 500;
+      color: #9fa2a8;
+      margin-bottom: 36px; }
+  .about-us .about-us__link {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 8px 25px;
+    margin-bottom: 100px; }
+  .about-us__image {
+    margin-top: 20px;
+    margin-right: 175px;
+    max-width: 400px; }
+    .about-us__image .image-aboutus {
+      width: 100%; }
+
+.details-bouncy {
+  background-color: #f3f3f3;
+  padding: 80px 0 100px; }
+  .details-bouncy .content-wrapp {
+    text-align: center;
+    margin-bottom: 62px; }
+    .details-bouncy .content-wrapp__title {
+      text-transform: uppercase;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
+      line-height: 12px;
+      letter-spacing: 3px;
+      font-weight: 400;
+      color: #333b46; }
+    .details-bouncy .content-wrapp__text {
+      max-width: 470px;
+      margin: 40px auto 0;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      line-height: 25px;
+      font-weight: 500;
+      color: #93979e; }
+    .details-bouncy .content-wrapp .icon-link {
+      margin: 63px auto 0;
+      max-width: 220px;
+      min-height: 60px;
+      display: flex;
+      justify-content: space-between; }
+      .details-bouncy .content-wrapp .icon-link__box {
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        background-color: #81868e;
+        cursor: pointer; }
+        .details-bouncy .content-wrapp .icon-link__box:hover {
+          background-color: #19bd9a;
+          transition: ease-in-out .5s; }
+  .details-bouncy__content {
+    max-width: 925px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500; }
+    .details-bouncy__content .content-heading {
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #464646; }
+    .details-bouncy__content .content-box__wrapp {
+      display: flex;
+      justify-content: space-between; }
+      .details-bouncy__content .content-box__wrapp .content-box:first-child {
+        max-width: 345px; }
+      .details-bouncy__content .content-box__wrapp .content-box:last-child {
+        max-width: 525px; }
+      .details-bouncy__content .content-box__wrapp .content-box__text {
+        color: #8a8f96;
+        line-height: 28px;
+        font-size: 16px; }
+        .details-bouncy__content .content-box__wrapp .content-box__text_size {
+          font-size: 14px; }
+
+.featured-work {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 80px; }
+  .featured-work__title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #333b46; }
+  .featured-work__text {
+    margin: 40px auto 0;
+    max-width: 470px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #81868e; }
+  .featured-work__card {
+    display: flex; }
+    .featured-work__card .card-box {
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .featured-work__card .card-box:hover {
+        background-color: rgba(0, 0, 0, 0.5); }
+      .featured-work__card .card-box:first-child {
+        width: 50%; }
+      .featured-work__card .card-box__text {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+        text-transform: uppercase; }
+
+.size-block {
+  margin: 0 auto;
+  max-width: 1366px; }
+
+/*# sourceMappingURL=style.css.map */

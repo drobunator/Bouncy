@@ -1,0 +1,92 @@
+.header{
+  background: url('../img/header-img/header__bg.jpg') no-repeat;
+  background-size: cover;
+  max-width: 1366px;
+  padding: 47px 0 77px;
+  font-family: 'myriad-pro', sans-serif;
+  .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 1150px;
+    margin-left: 98px;
+    .logo{
+      &__title{
+        @font-face {
+          font-family: 'Big John Regular';
+          src: url(BigJohnFont/BigJohn.woff);
+          font-size: 25px;
+        }
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 900;
+      }
+    }
+  &__link{
+     .link{
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 12px;
+      border: 1px solid  transparent ; 
+      border-radius: 18px;
+     padding: 10px 15px;
+     &:hover{
+      border: 1px #fff solid;
+      transition: all ease-in .4s;
+        }
+      }
+    }
+  }
+  .content{
+    max-width: 620px;
+    text-align: center;
+    color: #fff;
+    margin: 220px auto 0;
+    &__title{
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 35px;
+      font-weight: 400;
+      letter-spacing: 5px;
+      line-height: 70px;
+      text-transform: uppercase;
+    }
+    &__paragraph{
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 1px;
+    }
+  }
+  .slider-button{
+    margin: 224px auto 0;
+    border-radius: 50%;
+    background: #19bd9a;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    &:after{
+      content: '';
+      display: block;
+      width: 2px;
+      height: 8px;
+      background-color: #fff;
+      transform: rotate(-45deg);
+      position: absolute;
+      top: calc(48% - 2px);
+      left: calc(48% - 2.5px);
+    }
+    &:before{
+      content: '';
+      display: block;
+      width: 2px;
+      height: 8px;
+      background-color: #fff;
+      transform: rotate(45deg);
+      position: absolute;
+      top: calc(48% - 2px);
+      right: calc(48% - 2.5px);
+    }
+  }
+}
