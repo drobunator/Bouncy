@@ -181,41 +181,6 @@
         .details-bouncy__content .content-box__wrapp .content-box__text_size {
           font-size: 14px; }
 
-.featured-work {
-  background-color: #fff;
-  text-align: center;
-  padding-top: 80px; }
-  .featured-work__title {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    color: #333b46; }
-  .featured-work__text {
-    margin: 40px auto 0;
-    max-width: 470px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #81868e; }
-  .featured-work__card {
-    display: flex; }
-    .featured-work__card .card-box {
-      width: 25%;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .featured-work__card .card-box:hover {
-        background-color: rgba(0, 0, 0, 0.5); }
-      .featured-work__card .card-box:first-child {
-        width: 50%; }
-      .featured-work__card .card-box__text {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-        letter-spacing: 3px;
-        color: #fff;
-        text-transform: uppercase; }
-
 .size-block {
   margin: 0 auto;
   max-width: 1366px; }
